@@ -19,7 +19,22 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 
 ## Game Guide
 
-After installing this game, the main window appears:
+### Placing Ships
+The aveilable ships are 5: 
+
+
+| Type | Ships  | Positions  | Points of hit | Bonus if sunk|
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+|1| Carrier | Content Cell  | Content Cell  | Content Cell  |
+|2| Battleship  | Content Cell  | Content Cell  | Content Cell  |
+|3| Cruiser | Content Cell  | Content Cell  | Content Cell  |
+|4| Submarine  | Content Cell  | Content Cell  | Content Cell  |
+|5| Destroyer  | Content Cell  | Content Cell  | Content Cell  |
+
+
+### Open Game
+
+### More Details
 
 ![12](https://user-images.githubusercontent.com/50829499/111382249-6b264100-86af-11eb-8097-eb043d9658a9.png)
 

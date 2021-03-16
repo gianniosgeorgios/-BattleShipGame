@@ -21,5 +21,5 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 
 After installing this game, the main window appears:
 
+![12](https://user-images.githubusercontent.com/50829499/111382249-6b264100-86af-11eb-8097-eb043d9658a9.png)
 
-![μαιν](https://user-images.githubusercontent.com/50829499/111381913-04a12300-86af-11eb-9199-023cf5e8bf0c.png)

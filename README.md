@@ -25,11 +25,11 @@ The aveilable ships are 5:
 
 | Type | Ships  | Positions  | Points of hit | Bonus if sunk|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-|1| Carrier | Content Cell  | Content Cell  | Content Cell  |
-|2| Battleship  | Content Cell  | Content Cell  | Content Cell  |
-|3| Cruiser | Content Cell  | Content Cell  | Content Cell  |
-|4| Submarine  | Content Cell  | Content Cell  | Content Cell  |
-|5| Destroyer  | Content Cell  | Content Cell  | Content Cell  |
+|1| Carrier    |4| 350| 1000|
+|2| Battleship |4| 250| 500 |
+|3| Cruiser    |3| 100| 250|
+|4| Submarine  |3| 100|  0 |
+|5| Destroyer  |2|  0 | 0  |
 
 
 ### Open Game

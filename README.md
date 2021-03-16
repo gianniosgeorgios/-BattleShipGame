@@ -55,9 +55,28 @@ After placing all ships, cick on the game icon to start playing. The window that
 
 ![12](https://user-images.githubusercontent.com/50829499/111382249-6b264100-86af-11eb-8097-eb043d9658a9.png)
 
+Player is notificated if playes first or not. Each movement can be done inserting taget coordinates using form. Coordinates must be typed in the form `x,y`. If not, 
+an exception is throwded and a message shows up. Of course if a player shot a ship. playes again. 
+
 ### Menu 
 
+#### Application 
+
+* **Start** : Start game from beggining. Initialize all shots  <br/>
+* **Load** : Load a proper scenario, by typing SCENARIO's name  <br/>
+* **Exit** : Close application  <br/>
+
+#### Details 
+
+* **Enemy Ships** : Get information about enemy ships: Safe, In Danger, Sunken <br/>
+* **Player Shots** : Get information about 5 last shots of player ( coordinates, hit/miss, in case of hit the type of ship) <br/>
+* **Enemy Shots** : The same for enemy <br/>
+
 ### Ending Game
+
+The game ends if a player run out of shots, or all ships sunk. After that all ships revealed with pink colour.
+
+![α](https://user-images.githubusercontent.com/50829499/111387523-82b4f800-86b6-11eb-950b-2e3db596704a.png)
 
 ### About - Contact 
 

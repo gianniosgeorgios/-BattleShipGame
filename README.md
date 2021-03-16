@@ -33,27 +33,39 @@ The aveilable ships are 5 and they are placed to a 10 x 10 grid.
 
 Create two `.txt` files one for player: `player_SCENARIO.txt`, and another one for enemy `enemy_SCENARIO.txt`
 
-Each `.txt` file contains 5 lines. Each line is in the form:
-
-type, x_cordinate, y_cordinate, is_vertical
+Each `.txt` file contains 5 lines. Each line is in the form:   type, x_cordinate, y_cordinate, is_vertical
 
 Example: 
 
 *"1,3,2,1" means that Carrier ship will be placed to (3,2) position horizontally.* <br/>
 *"2,5,5,2" means that Cruiser ship will be placed to (5,5) position vertically.*
 
-### Starting game
+**Restrinction in placement**
+
+1. Ships can be placed only inside a grid 
+2. In one cell maximimum must be one ship
+3. All ships are of different types
+4. Two ships must have distance at least two cells
+
+If the placement is not proper, an exception is throwded and user is notificated with message
+
+### Starting Game
 
 After placing all ships, cick on the game icon to start playing. The window that shows up is : 
 
 ![12](https://user-images.githubusercontent.com/50829499/111382249-6b264100-86af-11eb-8097-eb043d9658a9.png)
 
-If the placement is not proper, an exception is throwded and user is notificated with message:
+### Menu 
 
+### Ending Game
 
-### Open Game
+### About - Contact 
 
-### More Details
+For bugs please contact me: gianniosgeorgios45@gmail.com 
+
+Enjoy Playing !
+
+George Giannios
 
 
 

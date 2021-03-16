@@ -13,8 +13,13 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 ## How to Install 
 
 1. Make sure that you have install JavaFx to your pc. If not, click [here](https://openjfx.io/openjfx-docs/#install-javafx).
-2. Download the package "GameBattleship" from this git-repo.
+2. Download the package `GameBattleship.jar` from this git-repo.
 3. Open in Terminal and type: <br/>
 `java --module-path "path_to\javafx-sdk-15.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar GameBattleship.jar"`
 
-##
+## Game Guide
+
+After installing this game, the main window appears:
+
+
+![μαιν](https://user-images.githubusercontent.com/50829499/111381913-04a12300-86af-11eb-9199-023cf5e8bf0c.png)

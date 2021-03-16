@@ -1,7 +1,5 @@
 # BattleShipGame
 
-![aaaa](https://user-images.githubusercontent.com/50829499/111388141-77160100-86b7-11eb-8fa3-8f0da03eea62.png)
-
 ## Abstract
 
 The main purpose of this excerise was to develop a different version of a classic game: "BattleShip". 

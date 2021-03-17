@@ -10,7 +10,7 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 
 ## How to Install 
 
-1. Make sure that you have install JavaFx to your pc. If not, click [here](https://openjfx.io/openjfx-docs/#install-javafx).
+1. Make sure that you have JavaFx installed on your pc. If not, click [here](https://openjfx.io/openjfx-docs/#install-javafx).
 2. Download the package `GameBattleship.jar` from this git-repo.
 3. Open in Terminal and type: <br/>
 `java --module-path "path_to\javafx-sdk-15.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar GameBattleship.jar"`
@@ -18,7 +18,7 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 ## Game Guide
 
 ### Placing Ships
-The aveilable ships are 5 and they are placed to a 10 x 10 grid.
+The aveilable ships are 5 and they are placed on a 10 x 10 grid.
 
 
 | Type | Ships  | Positions  | Points of hit | Bonus if sunk|
@@ -29,23 +29,23 @@ The aveilable ships are 5 and they are placed to a 10 x 10 grid.
 |4| Submarine  |3| 100|  0 |
 |5| Destroyer  |2|  0 | 0  |
 
-Create two `.txt` files one for player: `player_SCENARIO.txt`, and another one for enemy `enemy_SCENARIO.txt`
+Create two `.txt` files one for the player: `player_SCENARIO.txt`, and another one for the enemy `enemy_SCENARIO.txt`
 
 Each `.txt` file contains 5 lines. Each line is in the form:   type, x_cordinate, y_cordinate, is_vertical
 
 Example: 
 
-*"1,3,2,1" means that Carrier ship will be placed to (3,2) position horizontally.* <br/>
-*"2,5,5,2" means that Cruiser ship will be placed to (5,5) position vertically.*
+*"1,3,2,1" means that Carrier ship will be placed on (3,2) position horizontally.* <br/>
+*"2,5,5,2" means that Cruiser ship will be placed on (5,5) position vertically.*
 
 **Restrinction in placement**
 
 1. Ships can be placed only inside a grid 
-2. In one cell maximimum must be one ship
+2. In any cell one ship maximimum can be placed
 3. All ships are of different types
-4. Two ships must have distance at least two cells
+4. Betwenn two ships at least should cells must intervene
 
-If the placement is not proper, an exception is throwded and user is notificated with message
+If the placement is not proper, an exception is thrown and the user is notified with a message
 
 ### Starting Game
 
@@ -53,14 +53,14 @@ After placing all ships, cick on the game icon to start playing. The window that
 
 ![12](https://user-images.githubusercontent.com/50829499/111382249-6b264100-86af-11eb-8097-eb043d9658a9.png)
 
-Player is notificated if playes first or not. Each movement can be done inserting taget coordinates using form. Coordinates must be typed in the form `x,y`. If not, 
-an exception is throwded and a message shows up. Of course if a player shot a ship. playes again. 
+Player is first notified whether he plays first or not. Each movement can be done inserting taget coordinates using the form `x,y`. If not, 
+an exception is thrown and a message shows up. Of course in case a player shoots a ship, he plays again. 
 
 ### Menu 
 
 #### Application 
 
-* **Start** : Start game from beggining. Initialize all shots  <br/>
+* **Start** : Start the game from the beggining. Initialize all shots  <br/>
 * **Load** : Load a proper scenario, by typing SCENARIO's name  <br/>
 * **Exit** : Close application  <br/>
 
@@ -72,7 +72,7 @@ an exception is throwded and a message shows up. Of course if a player shot a sh
 
 ### Ending Game
 
-The game ends if a player run out of shots, or all ships sunk. After that all ships revealed with pink colour.
+The game ends whwn a player runs out of shots, or when all ships are sunk. Then, all ships are revealed with pink colour.
 
 ![α](https://user-images.githubusercontent.com/50829499/111387523-82b4f800-86b6-11eb-950b-2e3db596704a.png)
 

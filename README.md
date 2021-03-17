@@ -18,7 +18,7 @@ Coding on Java SE Development Kit 16 while the Interface was made using SceneBui
 ## Game Guide
 
 ### Placing Ships
-The aveilable ships are 5 and they are placed on a 10 x 10 grid.
+The available ships are 5 and they are placed on a 10 x 10 grid.
 
 
 | Type | Ships  | Positions  | Points of hit | Bonus if sunk|
@@ -72,7 +72,7 @@ an exception is thrown and a message shows up. Of course in case a player shoots
 
 ### Ending Game
 
-The game ends whwn a player runs out of shots, or when all ships are sunk. Then, all ships are revealed with pink colour.
+The game ends when a player runs out of shots, or when all ships are sunk. Then, all ships are revealed with pink colour.
 
 ![α](https://user-images.githubusercontent.com/50829499/111387523-82b4f800-86b6-11eb-950b-2e3db596704a.png)
 
